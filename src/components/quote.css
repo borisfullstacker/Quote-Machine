@@ -1,0 +1,184 @@
+*{
+    font-family: 'monospace';
+    font-size: 25px;
+
+
+}
+
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.quoteContainer{
+    position: relative;
+    width: 600px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+
+
+
+}
+.quoteContainer>p{
+    text-align: left;
+}
+
+.quoteContainer>h3 , p{
+    padding: 10px 40px 10px 40px;
+}
+
+span{   
+    position: relative;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ .btn{
+     padding: 0.6rem 0.8rem;
+     float: right;
+     cursor: pointer;
+     font-size: 0.7rem;
+     color: white;
+     border-radius: 10px;
+     outline: 0;
+ }
+
+ .btn:hover{
+   opacity: 0.8;    
+ }
+
+.color1{
+  background-color: rgb(23, 161, 23);
+  color: rgb(23, 161, 23);;
+}
+ 
+.color2{
+  background-color: rgba(228, 109, 109, 0.815);
+  color: rgba(228, 109, 109, 0.815);;
+
+}
+.color3{
+    background-color: rgb(83, 83, 233);
+    color: rgb(83, 83, 233);;
+
+}           
+
+.color4{
+   background-color: purple;
+   color: purple;
+
+}
+
+.color5{
+    background-color: brown;
+    color: brown;
+
+}
+
+.color6{
+   background-color: royalblue;
+   color: royalblue;
+
+}
+.color7{
+   background-color: rgb(188, 106, 209);
+   color: rgb(188, 106, 209);;
+
+}           
+
+.color8{
+  background-color: saddlebrown;
+  color: saddlebrown;
+
+}
+
+.color9{
+    background-color: rgb(107, 194, 179);
+    color: rgb(107, 194, 179);;
+
+ }           
+ 
+.color10{
+   background-color: rgb(190, 135, 96);
+   color: rgb(190, 135, 96);
+}
+
+.transition{
+    transition-property: background-color,color; 
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.blockquote:before {
+    content: '\201C';
+    background: #fff;
+    font: 6em/1.08em 'PT Sans', sans-serif;
+    line-height: 0.8;
+    background-color: transparent;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.quoteBody{
+    position: relative;
+}
+
+.tweet>span{
+    height: 50px;
+    width: 40px;
+    float: left;
+
+
+}
+
+.tweet>div:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.fa-twitter{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    padding-left: 10px;
+    height: 54px;
+    border-radius: 5px;
+
+}
+
+
+
+ @media(max-width:500px){
+    .quoteContainer{
+        width: 100%;
+    }
+    .main{
+        width: initial;
+    }
+
+}
+
+
